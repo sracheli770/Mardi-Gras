@@ -1,0 +1,14 @@
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    grid-gap: 20px;
+}
+
+.gallery img {
+    width: 100%;
+}
+
+.gallery img:hover {
+    transform: scale(1.05);
+    opacity: 65%;
+}

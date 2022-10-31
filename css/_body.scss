@@ -1,0 +1,45 @@
+p {
+    font-family: $Roboto;
+    text-align: justify;
+}
+
+h1,
+footer h5 {
+    font-family: $Pattaya;
+}
+
+h3,
+h6 {
+    font-family: $Roboto;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.myTop {
+    z-index: 100;
+    bottom: 10px;
+    left: 10px;
+    opacity: 1;
+}
+
+.myTop:hover {
+    opacity: 0.5;
+}
+
+.btn:hover {
+    opacity: 80%;
+}
+
+.btn-circle,
+.btn-md {
+    width: 40px;
+    height: 40px;
+    padding: 7px 10px;
+    border-radius: 20px;
+    font-size: 10px;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 80%;
+}

@@ -1,0 +1,96 @@
+@import url("https: //fonts.googleapis.com/css2?family=Henny+Penny&family=Pattaya&family=Roboto&display=swap");
+p {
+  font-family: Roboto;
+  text-align: justify;
+}
+
+h1,
+footer h5 {
+  font-family: Pattaya;
+}
+
+h3,
+h6 {
+  font-family: Roboto;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.myTop {
+  z-index: 100;
+  bottom: 10px;
+  left: 10px;
+  opacity: 1;
+}
+
+.myTop:hover {
+  opacity: 0.5;
+}
+
+.btn:hover {
+  opacity: 80%;
+}
+
+.btn-circle,
+.btn-md {
+  width: 40px;
+  height: 40px;
+  padding: 7px 10px;
+  border-radius: 20px;
+  font-size: 10px;
+  text-align: center;
+  vertical-align: middle;
+  font-size: 80%;
+}
+
+#carouselExampleCaptions h5 {
+  text-shadow: 2px 2px 5px #0d0d0d;
+}
+
+.myBTN,
+.myBTN:visited {
+  background-color: #bd88cc !important;
+  border: 0;
+  color: #fff !important;
+}
+
+.myBTN:hover {
+  background-color: #dda8ea !important;
+  color: #fff !important;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  grid-gap: 20px;
+}
+
+.gallery img {
+  width: 100%;
+}
+
+.gallery img:hover {
+  transform: scale(1.05);
+  opacity: 65%;
+}
+
+.myBTN2 {
+  background-color: #8cbf3f;
+  border: 0;
+  color: #000;
+}
+
+.myBTN2:hover {
+  background-color: rgb(161, 209, 88) !important;
+  border: 0;
+  color: #000 !important;
+}
+
+h6 i:hover {
+  background-color: #fff !important;
+  color: #000 !important;
+  opacity: 100% !important;
+  cursor: default !important;
+}/*# sourceMappingURL=main.css.map */
